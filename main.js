@@ -321,7 +321,7 @@ option = {
         }
     },
     legend: {
-        data: ['速率', '访问百度延迟', '访问Cloudflare延迟']
+        data: ['速率', '百度', 'Cloudflare']
     },
     toolbox: {
         feature: {
@@ -362,12 +362,12 @@ option = {
             data: []
         },
         {
-            name: '访问百度延迟',
+            name: '百度',
             type: 'line',
             data: []
         },
         {
-            name: '访问Cloudflare延迟',
+            name: 'Cloudflare',
             type: 'line',
             data: []
         }

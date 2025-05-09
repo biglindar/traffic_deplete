@@ -192,6 +192,20 @@
                                 开始
                             </button>
                             <div class="row mt-4">
+                                <div class="col-sm-12 col-md-4 border stat"
+                                    onclick='inputMax=prompt("请输入流量上限(GB)\n不填为不设置上限","");if(inputMax !== null)setMax(inputMax)'>
+                                    <div class="text-dark"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor"
+                                            class="h-15 w-15 float-right pt-3">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z">
+                                            </path>
+                                        </svg></div>
+                                    <div class="stat-title">总流量
+                                        <a id="showMax"></a>
+                                    </div>
+                                    <div class="stat-value" id="total">-</div>
+                                </div>
                             
                                 <div class="col-sm-12 col-md-4 border stat">
                                     <div class="text-info"><svg xmlns="http://www.w3.org/2000/svg" fill="none"

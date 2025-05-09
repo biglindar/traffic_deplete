@@ -12,3 +12,7 @@
 - 💡 页面完全静态，**无后端依赖**
 
 ---
+
+![img](https://r2.wuxie.de/blog/20250509_f6c83351.jpg)
+
+![img](https://r2.wuxie.de/blog/20250509_240dad4a.jpg)

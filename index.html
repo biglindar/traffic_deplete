@@ -121,7 +121,7 @@
                             <div class="nya-title nk-ibx-action-item progress-rating"><em
                                     class="icon ni ni-setting"></em><span
                                     class="nk-menu-text font-weight-bold">测试设置</span></div>
-                            <div class="form-group"><label class="form-label">测试地址</label>
+                            <div class="form-group"><label class="form-label">测速节点</label>
                                 <div class="form-control-wrap">
                                     <select id='select'
                                         onchange="document.getElementById('link').value=this.options[this.selectedIndex].value;setCookie('select',this.selectedIndex,365);"
@@ -129,10 +129,10 @@
                                         <option value="" id="diy">自定义</option>
                                         <option selected="selected"
                                             value="https://issuecdn.baidupcs.com/issue/netdisk/apk/BaiduNetdiskSetup_wap_share.apk">
-                                            百度CDN [国内]</option>
+                                            百度 [中国]</option>
                                         <option
-                                        <option value="https://speed.cloudflare.com/__down?bytes=1073741824">Cloudflare
-                                            Speed [全国]</option>
+                                        <option value="https://speed.cloudflare.com/__down?bytes=1073741824">
+                                            Cloudflare [全球]</option>
                                     </select>
                                     <input value=""
                                         oninput="document.getElementById('select').selectedIndex=0;document.getElementById('diy').value=this.value;setCookie('diy',this.value,365);setCookie('select',0,365);"
